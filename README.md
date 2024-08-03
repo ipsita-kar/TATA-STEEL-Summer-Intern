@@ -77,50 +77,61 @@ import seaborn as sns
 
 print("All libraries imported successfully!")
 
-**Notes on Large Language Models (LLMs)**
+## Notes on Large Language Models (LLMs)
+
 During the internship, I explored various LLMs to understand their capabilities and applications. Here are some key insights:
-GPT-3
-Developer: OpenAI
-Description: A state-of-the-art language model known for its ability to understand and generate human-like text.
-Applications: Chatbots, content creation, translation, summarization, and more.
-Strengths: Versatile, highly accurate, and capable of generating coherent and contextually relevant responses.
-BERT
-Developer: Google
-Description: Bidirectional Encoder Representations from Transformers, designed to understand the context of words in a sentence.
-Applications: Question answering, language translation, text classification.
-Strengths: Excellent at understanding the nuances of language, especially for tasks requiring deep understanding of text.
-T5
-Developer: Google
-Description: Text-to-Text Transfer Transformer, treats every NLP task as a text-to-text problem.
-Applications: Translation, summarization, question answering, and more.
-Strengths: Highly versatile and powerful for various NLP tasks, consistent performance across different applications.
-RoBERTa
-Developer: Facebook AI
-Description: A robustly optimized version of BERT, designed to improve upon BERT’s pretraining methodology.
-Applications: Same as BERT (question answering, text classification, etc.).
-Strengths: Improved performance on many NLP benchmarks, robust understanding of language context.
-LLaMA
-Developer: Meta (Facebook AI)
-Description: Large Language Model Meta AI, designed to push the boundaries of what LLMs can achieve.
-Applications: Broad range of NLP tasks including text generation, summarization, and more.
-Strengths: Optimized for performance and scalability, advanced language understanding.
-Cohere
-Developer: Cohere AI
-Description: Provides a range of language models designed for different NLP tasks, with a focus on ease of use and integration.
-Applications: Text classification, generation, summarization, and more.
-Strengths: User-friendly API, strong performance on a variety of tasks, customizable models.
-Mistral
-Developer: Mistral AI
-Description: Focuses on developing advanced language models with high accuracy and performance.
-Applications: Various NLP tasks, with an emphasis on precise and efficient text understanding.
-Strengths: High accuracy, efficient training and inference, tailored for specific use cases.
-DeepSDE
-Developer: Community-driven (various contributors)
-Description: A library for stochastic differential equations, used for improving Physics-Informed Neural Networks (PINNs).
-Applications: Enhancing model accuracy in scenarios with low data availability, simulations involving complex physical processes.
-Strengths: Integrates well with PINNs, improves model performance through extensive simulations.
-OpenAI's LLM Suite
-Developer: OpenAI
-Description: Includes models like GPT-3, Codex, and others designed for various NLP and coding tasks.
-Applications: Text generation, code completion, translation, summarization, and more.
-Strengths: Versatility, high accuracy, strong contextual understanding, widely used and supported.
+
+### GPT-3
+- **Developer**: OpenAI
+- **Description**: A state-of-the-art language model known for its ability to understand and generate human-like text.
+- **Applications**: Chatbots, content creation, translation, summarization, and more.
+- **Strengths**: Versatile, highly accurate, and capable of generating coherent and contextually relevant responses.
+
+### BERT
+- **Developer**: Google
+- **Description**: Bidirectional Encoder Representations from Transformers, designed to understand the context of words in a sentence.
+- **Applications**: Question answering, language translation, text classification.
+- **Strengths**: Excellent at understanding the nuances of language, especially for tasks requiring deep understanding of text.
+
+### T5
+- **Developer**: Google
+- **Description**: Text-to-Text Transfer Transformer, treats every NLP task as a text-to-text problem.
+- **Applications**: Translation, summarization, question answering, and more.
+- **Strengths**: Highly versatile and powerful for various NLP tasks, consistent performance across different applications.
+
+### RoBERTa
+- **Developer**: Facebook AI
+- **Description**: A robustly optimized version of BERT, designed to improve upon BERT’s pretraining methodology.
+- **Applications**: Same as BERT (question answering, text classification, etc.).
+- **Strengths**: Improved performance on many NLP benchmarks, robust understanding of language context.
+
+### LLaMA
+- **Developer**: Meta (Facebook AI)
+- **Description**: Large Language Model Meta AI, designed to push the boundaries of what LLMs can achieve.
+- **Applications**: Broad range of NLP tasks including text generation, summarization, and more.
+- **Strengths**: Optimized for performance and scalability, advanced language understanding.
+
+### Cohere
+- **Developer**: Cohere AI
+- **Description**: Provides a range of language models designed for different NLP tasks, with a focus on ease of use and integration.
+- **Applications**: Text classification, generation, summarization, and more.
+- **Strengths**: User-friendly API, strong performance on a variety of tasks, customizable models.
+
+### Mistral
+- **Developer**: Mistral AI
+- **Description**: Focuses on developing advanced language models with high accuracy and performance.
+- **Applications**: Various NLP tasks, with an emphasis on precise and efficient text understanding.
+- **Strengths**: High accuracy, efficient training and inference, tailored for specific use cases.
+
+### DeepSDE
+- **Developer**: Community-driven (various contributors)
+- **Description**: A library for stochastic differential equations, used for improving Physics-Informed Neural Networks (PINNs).
+- **Applications**: Enhancing model accuracy in scenarios with low data availability, simulations involving complex physical processes.
+- **Strengths**: Integrates well with PINNs, improves model performance through extensive simulations.
+
+### OpenAI's LLM Suite
+- **Developer**: OpenAI
+- **Description**: Includes models like GPT-3, Codex, and others designed for various NLP and coding tasks.
+- **Applications**: Text generation, code completion, translation, summarization, and more.
+- **Strengths**: Versatility, high accuracy, strong contextual understanding, widely used and supported.
+
