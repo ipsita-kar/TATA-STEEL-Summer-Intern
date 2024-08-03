@@ -47,37 +47,7 @@ Welcome to the repository documenting my TATA Steel Summer Internship in 2024. T
   - Explored various LLMs, their pros and cons
   - Applied generative AI to improve PINNs with the TATA dataset
   - Achieved a 30% improvement in accuracy through over 10,000 simulations
-
-## Installation
-To replicate the work done during the internship, you'll need to install the following libraries:
-
-### PyTorch
-```bash
-pip install torch torchvision torchaudio
-Installation
-Step 1: Clone the Repository
-First, clone this repository to your local machine using the following command:
-
-git clone https://github.com/your-username/TATA-STEEL-Summer-Intern.git
-cd TATA-STEEL-Summer-Intern
-
-Step 2: Set Up a Virtual Environment
-It is recommended to create a virtual environment to manage your dependencies. You can create a virtual environment using venv:
-python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install torch torchvision torchaudio
-pip install deepxde
-pip install numpy pandas matplotlib seaborn
-import torch
-import deepxde as dde
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-print("All libraries imported successfully!")
-
-## Notes on Large Language Models (LLMs)
+ ## Notes on Large Language Models (LLMs)
 
 During the internship, I explored various LLMs to understand their capabilities and applications. Here are some key insights:
 
@@ -134,4 +104,36 @@ During the internship, I explored various LLMs to understand their capabilities 
 - **Description**: Includes models like GPT-3, Codex, and others designed for various NLP and coding tasks.
 - **Applications**: Text generation, code completion, translation, summarization, and more.
 - **Strengths**: Versatility, high accuracy, strong contextual understanding, widely used and supported.
+
+
+## Installation
+To replicate the work done during the internship, you'll need to install the following libraries:
+
+### PyTorch
+```bash
+pip install torch torchvision torchaudio
+Installation
+Step 1: Clone the Repository
+First, clone this repository to your local machine using the following command:
+
+git clone https://github.com/your-username/TATA-STEEL-Summer-Intern.git
+cd TATA-STEEL-Summer-Intern
+
+Step 2: Set Up a Virtual Environment
+It is recommended to create a virtual environment to manage your dependencies. You can create a virtual environment using venv:
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install torch torchvision torchaudio
+pip install deepxde
+pip install numpy pandas matplotlib seaborn
+import torch
+import deepxde as dde
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+print("All libraries imported successfully!")
+
+
 
